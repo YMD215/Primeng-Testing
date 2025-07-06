@@ -1,3 +1,5 @@
+<p-toast></p-toast>
+
 <div class="card">
     <p-table [value]="products" [tableStyle]="{'min-width': '60rem'}">
         <ng-template #header>
@@ -26,3 +28,4 @@
         </ng-template>
     </p-table>
 </div>
+<button (click)="showMsg()">Show Message</button>
